@@ -1,0 +1,81 @@
+@media (max-width:1290px) {
+    
+    .container .chars {
+        max-height: 500px;
+        margin-top: 1em;
+        border-radius: 10px;
+        width: 550px;
+        margin-bottom: 0;
+
+        }
+
+        .container .descricao {
+            color: #ffffff;
+            width: 85%;
+            font-size: 15px;
+            justify-items:flex start;
+            text-align: justify;
+            
+        }
+
+
+@media (max-width:1246px) {
+    
+    body{
+        background-color: #018fd7 ;
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .cabecalho{
+        display: flex;
+    }
+    .container {
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: center;
+        height: auto;
+
+    }
+
+    .container .chars {
+        max-height: 500px;
+        margin-top: 1em;
+        border-radius: 10px;
+        width: 500px;
+        margin-bottom: 10px;
+
+    }
+
+    .container .imagem-titulo {
+        max-width: 12%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .container .botao-trailer {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@media (max-width:700px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabecalho .menu{
+        margin-left: 150px;
+    }
+}
+
+}
