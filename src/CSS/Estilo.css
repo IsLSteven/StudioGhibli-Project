@@ -13,7 +13,7 @@ body {
     width: 290px;
     filter: invert(100%);
     cursor: pointer;
-    margin-: 40px;
+    margin: 40px;
 }
 
 .cabecalho .menu {
