@@ -96,13 +96,11 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
 }
 
 .fundo-video .video {
    min-height: 100vh;
     min-width: 100vw;
-    margin: 0 auto;
 }
 
 .fundo-video::after {
@@ -112,7 +110,7 @@ body {
     position:absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgb(25, 25, 25, 1.4) 20%, rgba(25, 25, 25, 0.8) 50%, rgb(25, 25, 25, 1.4) 100%);
+    background: linear-gradient(90deg, rgb(25, 25, 25, 1.7) 20%, rgba(25, 25, 25, 0.8) 50%, rgb(25, 25, 25, 1.7) 80%);
     }
 
     .modal {
